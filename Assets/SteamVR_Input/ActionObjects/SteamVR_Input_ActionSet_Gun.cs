@@ -14,9 +14,11 @@ namespace Valve.VR
     using UnityEngine;
     
     
-    public class SteamVR_Input_ActionSet_buggy : Valve.VR.SteamVR_ActionSet
+    public class SteamVR_Input_ActionSet_Gun : Valve.VR.SteamVR_ActionSet
     {
         
-        public SteamVR_Input_ActionSet_buggy_In inActions;
+        public SteamVR_Input_ActionSet_Gun_In inActions;
+        
+        public SteamVR_Input_ActionSet_Gun_Out outActions;
     }
 }

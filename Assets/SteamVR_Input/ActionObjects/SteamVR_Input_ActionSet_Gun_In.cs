@@ -14,15 +14,11 @@ namespace Valve.VR
     using UnityEngine;
     
     
-    public class SteamVR_Input_ActionSet_buggy_In : Valve.VR.SteamVR_Action_List
+    public class SteamVR_Input_ActionSet_Gun_In : Valve.VR.SteamVR_Action_List
     {
         
-        public Valve.VR.SteamVR_Action_Vector2 Steering;
+        public Valve.VR.SteamVR_Action_Boolean GrabGrip;
         
-        public Valve.VR.SteamVR_Action_Single Throttle;
-        
-        public Valve.VR.SteamVR_Action_Boolean Brake;
-        
-        public Valve.VR.SteamVR_Action_Boolean Reset;
+        public Valve.VR.SteamVR_Action_Boolean GrabPinch;
     }
 }

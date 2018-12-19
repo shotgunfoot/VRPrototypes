@@ -15,19 +15,21 @@ MonoBehaviour:
   actionSet: {fileID: 0}
   listDirection: 0
   actions:
-  - {fileID: 11400000, guid: ee0df708c1d4e9343b2d80161e1f75ee, type: 2}
-  - {fileID: 11400000, guid: ef981549ca4d48f4bab849db52fc1ecc, type: 2}
-  - {fileID: 11400000, guid: 5815be6ca2bbd3946926847c5190bd5e, type: 2}
   - {fileID: 11400000, guid: 79bba8730411e47488aeb4e0556676ba, type: 2}
-  - {fileID: 11400000, guid: 0928dc1e244d20447952504ca3f2d4e9, type: 2}
   - {fileID: 11400000, guid: 96edbb6efd70a224cb573c88e2c28988, type: 2}
+  - {fileID: 11400000, guid: ef981549ca4d48f4bab849db52fc1ecc, type: 2}
   - {fileID: 11400000, guid: e9c5fd27e4ea7cc4fb74cf60e0edd7b4, type: 2}
+  - {fileID: 11400000, guid: 0928dc1e244d20447952504ca3f2d4e9, type: 2}
   - {fileID: 11400000, guid: b4eb10f5381932f48af9a2569543185a, type: 2}
-  InteractUI: {fileID: 11400000, guid: ee0df708c1d4e9343b2d80161e1f75ee, type: 2}
-  Teleport: {fileID: 11400000, guid: ef981549ca4d48f4bab849db52fc1ecc, type: 2}
-  GrabPinch: {fileID: 11400000, guid: 5815be6ca2bbd3946926847c5190bd5e, type: 2}
+  - {fileID: 11400000, guid: 5815be6ca2bbd3946926847c5190bd5e, type: 2}
+  - {fileID: 11400000, guid: ee0df708c1d4e9343b2d80161e1f75ee, type: 2}
+  - {fileID: 11400000, guid: 8dfe57b727c47724d9575cfcd7acdd7c, type: 2}
   GrabGrip: {fileID: 11400000, guid: 79bba8730411e47488aeb4e0556676ba, type: 2}
-  Pose: {fileID: 11400000, guid: 0928dc1e244d20447952504ca3f2d4e9, type: 2}
   SkeletonLeftHand: {fileID: 11400000, guid: 96edbb6efd70a224cb573c88e2c28988, type: 2}
+  Teleport: {fileID: 11400000, guid: ef981549ca4d48f4bab849db52fc1ecc, type: 2}
   SkeletonRightHand: {fileID: 11400000, guid: e9c5fd27e4ea7cc4fb74cf60e0edd7b4, type: 2}
+  Pose: {fileID: 11400000, guid: 0928dc1e244d20447952504ca3f2d4e9, type: 2}
   Squeeze: {fileID: 11400000, guid: b4eb10f5381932f48af9a2569543185a, type: 2}
+  GrabPinch: {fileID: 11400000, guid: 5815be6ca2bbd3946926847c5190bd5e, type: 2}
+  InteractUI: {fileID: 11400000, guid: ee0df708c1d4e9343b2d80161e1f75ee, type: 2}
+  TouchpadTouch: {fileID: 11400000, guid: 8dfe57b727c47724d9575cfcd7acdd7c, type: 2}

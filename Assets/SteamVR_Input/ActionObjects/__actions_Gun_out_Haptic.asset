@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c3d755cf6cc936488afcb037b69341e, type: 3}
-  m_Name: __actions_platformer_in_Jump
+  m_Script: {fileID: 11500000, guid: 48b01ecd7f9020044bab37ea4ac8fca3, type: 3}
+  m_Name: __actions_Gun_out_Haptic
   m_EditorClassIdentifier: 
   changeTolerance: 0.000001
-  fullPath: /actions/platformer/in/Jump
-  actionSet: {fileID: 11400000, guid: 291385d424f85d54c9e74ca3901271be, type: 2}
-  direction: 0
+  fullPath: /actions/Gun/out/Haptic
+  actionSet: {fileID: 11400000, guid: ea53e4640c4ade347a0eb5c89ea36a6c, type: 2}
+  direction: 1

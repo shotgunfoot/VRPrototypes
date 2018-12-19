@@ -1,29 +1,18 @@
 {
   "actions": [
     {
-      "name": "/actions/default/in/InteractUI",
-      "type": "boolean"
-    },
-    {
-      "name": "/actions/default/in/Teleport",
-      "type": "boolean"
-    },
-    {
-      "name": "/actions/default/in/GrabPinch",
-      "type": "boolean"
-    },
-    {
       "name": "/actions/default/in/GrabGrip",
       "type": "boolean"
     },
     {
-      "name": "/actions/default/in/Pose",
-      "type": "pose"
-    },
-    {
       "name": "/actions/default/in/SkeletonLeftHand",
       "type": "skeleton",
-      "skeleton": "/skeleton/hand/left"
+      "skeleton": "/skeleton/hand/left",
+      "requirement": "suggested"
+    },
+    {
+      "name": "/actions/default/in/Teleport",
+      "type": "boolean"
     },
     {
       "name": "/actions/default/in/SkeletonRightHand",
@@ -31,37 +20,40 @@
       "skeleton": "/skeleton/hand/right"
     },
     {
+      "name": "/actions/default/in/Pose",
+      "type": "pose"
+    },
+    {
       "name": "/actions/default/in/Squeeze",
-      "type": "vector1",
-      "requirement": "optional"
+      "type": "vector1"
+    },
+    {
+      "name": "/actions/default/in/GrabPinch",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/InteractUI",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/TouchpadTouch",
+      "type": "vector2"
     },
     {
       "name": "/actions/default/out/Haptic",
       "type": "vibration"
     },
     {
-      "name": "/actions/platformer/in/Move",
-      "type": "vector2"
-    },
-    {
-      "name": "/actions/platformer/in/Jump",
+      "name": "/actions/Gun/in/GrabGrip",
       "type": "boolean"
     },
     {
-      "name": "/actions/buggy/in/Steering",
-      "type": "vector2"
-    },
-    {
-      "name": "/actions/buggy/in/Throttle",
-      "type": "vector1"
-    },
-    {
-      "name": "/actions/buggy/in/Brake",
+      "name": "/actions/Gun/in/GrabPinch",
       "type": "boolean"
     },
     {
-      "name": "/actions/buggy/in/Reset",
-      "type": "boolean"
+      "name": "/actions/Gun/out/Haptic",
+      "type": "vibration"
     }
   ],
   "action_sets": [
@@ -70,11 +62,7 @@
       "usage": "single"
     },
     {
-      "name": "/actions/platformer",
-      "usage": "single"
-    },
-    {
-      "name": "/actions/buggy",
+      "name": "/actions/Gun",
       "usage": "single"
     }
   ],
@@ -112,7 +100,21 @@
       "/actions/buggybuddy/in/Brake": "Brake",
       "/actions/buggybuddy/in/Reset": "Reset",
       "/actions/platformer/in/Move": "Move",
-      "/actions/platformer/in/Jump": "Jump"
+      "/actions/platformer/in/Jump": "Jump",
+      "/actions/Default/in/Squeeze": "Squeeze",
+      "/actions/Default/in/GrabPinch": "Grab Pinch",
+      "/actions/Default/in/Teleport": "Teleport",
+      "/actions/Default/in/Pose": "Pose",
+      "/actions/Default/in/SkeletonLeftHand": "Hand (Left)",
+      "/actions/Default/in/SkeletonRightHand": "Hand (Right)",
+      "/actions/Default/in/InteractUI": "Interact With UI",
+      "/actions/default/in/Squeeze": "Squeeze",
+      "/actions/Gun/in/GrabGrip": "Grab Grip",
+      "/actions/Gun/in/GripPinch": "Grip Pinch",
+      "/actions/Gun/in/GrabPinch": "Grab Pinch",
+      "/actions/Gun/out/Haptic": "Haptic",
+      "/actions/default/in/Move": "Movement",
+      "/actions/default/in/TouchpadTouch": "Touchpad Touch"
     }
   ]
 }

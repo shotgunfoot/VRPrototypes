@@ -14,41 +14,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actionSetNames:
   - _default
-  - platformer
-  - buggy
+  - Gun
   actionSetObjects:
   - {fileID: 11400000, guid: 8f17b84ccd7a09842910e2e7463e8fea, type: 2}
-  - {fileID: 11400000, guid: 291385d424f85d54c9e74ca3901271be, type: 2}
-  - {fileID: 11400000, guid: e13b3a25efd8bfd48af3606e0ac616d3, type: 2}
+  - {fileID: 11400000, guid: ea53e4640c4ade347a0eb5c89ea36a6c, type: 2}
   actionNames:
-  - __actions_default_in_InteractUI
-  - __actions_default_in_Teleport
-  - __actions_default_in_GrabPinch
   - __actions_default_in_GrabGrip
-  - __actions_default_in_Pose
   - __actions_default_in_SkeletonLeftHand
+  - __actions_default_in_Teleport
   - __actions_default_in_SkeletonRightHand
+  - __actions_default_in_Pose
   - __actions_default_in_Squeeze
+  - __actions_default_in_GrabPinch
+  - __actions_default_in_InteractUI
+  - __actions_default_in_TouchpadTouch
   - __actions_default_out_Haptic
-  - __actions_platformer_in_Move
-  - __actions_platformer_in_Jump
-  - __actions_buggy_in_Steering
-  - __actions_buggy_in_Throttle
-  - __actions_buggy_in_Brake
-  - __actions_buggy_in_Reset
+  - __actions_Gun_in_GrabGrip
+  - __actions_Gun_in_GrabPinch
+  - __actions_Gun_out_Haptic
   actionObjects:
-  - {fileID: 11400000, guid: ee0df708c1d4e9343b2d80161e1f75ee, type: 2}
-  - {fileID: 11400000, guid: ef981549ca4d48f4bab849db52fc1ecc, type: 2}
-  - {fileID: 11400000, guid: 5815be6ca2bbd3946926847c5190bd5e, type: 2}
   - {fileID: 11400000, guid: 79bba8730411e47488aeb4e0556676ba, type: 2}
-  - {fileID: 11400000, guid: 0928dc1e244d20447952504ca3f2d4e9, type: 2}
   - {fileID: 11400000, guid: 96edbb6efd70a224cb573c88e2c28988, type: 2}
+  - {fileID: 11400000, guid: ef981549ca4d48f4bab849db52fc1ecc, type: 2}
   - {fileID: 11400000, guid: e9c5fd27e4ea7cc4fb74cf60e0edd7b4, type: 2}
+  - {fileID: 11400000, guid: 0928dc1e244d20447952504ca3f2d4e9, type: 2}
   - {fileID: 11400000, guid: b4eb10f5381932f48af9a2569543185a, type: 2}
+  - {fileID: 11400000, guid: 5815be6ca2bbd3946926847c5190bd5e, type: 2}
+  - {fileID: 11400000, guid: ee0df708c1d4e9343b2d80161e1f75ee, type: 2}
+  - {fileID: 11400000, guid: 8dfe57b727c47724d9575cfcd7acdd7c, type: 2}
   - {fileID: 11400000, guid: a01116b82603ed24d9b9d8ad20eb6b8b, type: 2}
-  - {fileID: 11400000, guid: 98776ef1cadcb38448a1af6aea2f1517, type: 2}
-  - {fileID: 11400000, guid: 8b593a6aaab04984d8221c2f9f53aa8d, type: 2}
-  - {fileID: 11400000, guid: 80032105383410b4bae3386dd2cc82b7, type: 2}
-  - {fileID: 11400000, guid: 9d0756121a488b444a85fef9dd657deb, type: 2}
-  - {fileID: 11400000, guid: 0186a33fa6a020546b102953987864db, type: 2}
-  - {fileID: 11400000, guid: f16e58cc3016e354185f0152b4a3bc06, type: 2}
+  - {fileID: 11400000, guid: 1e9ad95cdc215e241bbc5331061bdbb7, type: 2}
+  - {fileID: 11400000, guid: 9f999722c728aac4c8c3fb3d8ea24c55, type: 2}
+  - {fileID: 11400000, guid: 1b9d3587fc3ff66458c269ab39a02e31, type: 2}

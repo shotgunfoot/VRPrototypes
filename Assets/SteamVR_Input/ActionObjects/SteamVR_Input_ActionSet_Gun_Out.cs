@@ -14,9 +14,9 @@ namespace Valve.VR
     using UnityEngine;
     
     
-    public class SteamVR_Input_ActionSet_platformer : Valve.VR.SteamVR_ActionSet
+    public class SteamVR_Input_ActionSet_Gun_Out : Valve.VR.SteamVR_Action_List
     {
         
-        public SteamVR_Input_ActionSet_platformer_In inActions;
+        public Valve.VR.SteamVR_Action_Vibration Haptic;
     }
 }

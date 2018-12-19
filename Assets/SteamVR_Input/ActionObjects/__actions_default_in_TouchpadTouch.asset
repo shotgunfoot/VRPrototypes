@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02b1c930c612dbc469d258783cb8be34, type: 3}
-  m_Name: __actions_buggy_in_Throttle
+  m_Script: {fileID: 11500000, guid: 31ab55ded67f66140977a544d93962ab, type: 3}
+  m_Name: __actions_default_in_TouchpadTouch
   m_EditorClassIdentifier: 
   changeTolerance: 0.000001
-  fullPath: /actions/buggy/in/Throttle
-  actionSet: {fileID: 11400000, guid: e13b3a25efd8bfd48af3606e0ac616d3, type: 2}
+  fullPath: /actions/default/in/TouchpadTouch
+  actionSet: {fileID: 11400000, guid: 8f17b84ccd7a09842910e2e7463e8fea, type: 2}
   direction: 0

@@ -39,7 +39,7 @@ namespace Valve.VR.InteractionSystem
                                                               AttachmentFlags.DetachFromOtherHand |
                                                                 AttachmentFlags.TurnOnKinematic |
                                                               AttachmentFlags.SnapOnAttach;
-
+        
         public Hand otherHand;
         public SteamVR_Input_Sources handType;
 
